@@ -31,13 +31,29 @@
 body
 {
     height: 100%;
+    background-image: url('IMG_0821.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media screen and (orientation:landscape) and (max-width:600px) {
+  body
+  {
+    background-color: blue;
+
+    background-image: url('IMG_0821_small.jpg');
+    background-size: cover;
+    background-repeat:repeat;
+  }
+    
 }
 @media only screen and (max-width:600px)
 {
     body
     {
-        background-color: blue;
-        
+        font-size: x-large;
+        font-weight: bolder;
+        background-color: aqua;
+        background-image: url('');
     }
     [class*="col-"]
     {
@@ -47,4 +63,7 @@ body
     {
         display: none;
     }
+}
+.row{
+    margin:  0px 20%;
 }
