@@ -43,4 +43,8 @@ body
     {
         width: 100%;
     }
+    .lorem
+    {
+        display: none;
+    }
 }
